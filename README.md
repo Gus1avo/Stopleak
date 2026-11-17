@@ -27,6 +27,9 @@ O **StopLeak** é um sistema ciberfísico de Internet das Coisas (IoT) desenvolv
 
 A solução combina processamento de borda (*edge computing*) no microcontrolador **ESP32** com uma aplicação web de monitoramento contínuo. Ao identificar anomalias no padrão de vazão, o sistema emite alertas imediatos e aciona automaticamente o fechamento da rede hidráulica via válvula solenoide.
 
+Link de acesso ao dashboard:
+https://stopleak-ashen.vercel.app/index.html
+
 ## ✨ Principais Funcionalidades
 - 🎯 **Monitoramento de Vazão em Tempo Real:** Leitura contínua de fluxo hídrico utilizando sensores de efeito Hall (`YF-S201`) com tratamento via interrupções de hardware.
 - ⚡ **Corte Automático de Abastecimento:** Acionamento imediato de válvula solenoide e bomba auxiliar por meio de módulos relé assim que uma anomalia ou vazamento é detectado.
